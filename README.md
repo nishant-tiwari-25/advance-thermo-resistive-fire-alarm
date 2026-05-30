@@ -1,4 +1,4 @@
-# 🔥 Advance Thermo-Resistive Fire Detection and Alert System
+# Advance Thermo-Resistive Fire Detection and Alert System
 
 > A simple, no-microcontroller fire alarm built with pure analog electronics — because sometimes the old-school way just works.
 
@@ -80,4 +80,4 @@ Big thanks to our course instructors and the lab staff at SVNIT Surat for their 
 
 ---
 
-*Built with resistors, solder, and a healthy fear of fire 🔥*
+*Built with resistors, solder, and a healthy fear of fire*
