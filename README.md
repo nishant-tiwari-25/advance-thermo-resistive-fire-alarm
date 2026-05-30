@@ -1,4 +1,4 @@
-# Advance Thermo-Resistive Fire Detection and Alert System
+# 🔥 Advance Thermo-Resistive Fire Detection and Alert System
 
 > A simple, no-microcontroller fire alarm built with pure analog electronics — because sometimes the old-school way just works.
 
@@ -45,9 +45,9 @@ That's it. No firmware to flash, no libraries to install.
 
 The circuit was first tested on a breadboard and later soldered onto a General Purpose PCB (Perfboard) for permanent implementation.
 
-| Breadboard Prototype | Final PCB |
-|---|---|
-| ![Breadboard](photos/breadboard.jpg) | ![PCB](photos/pcb.jpg) |
+| Breadboard Prototype | Final PCB (Build 1) | Final PCB (Build 2) |
+|---|---|---|
+| ![Prototype](photos/prototype.jpg) | ![PCB Build 1](photos/pcb_build_1.jpg) | ![PCB Build 2](photos/pcb_build_2.jpg) |
 
 ---
 
@@ -96,4 +96,4 @@ Big thanks to our course instructors and the lab staff at SVNIT Surat for their 
 
 ---
 
-*Built with resistors, solder, and a healthy fear of fire*
+*Built with resistors, solder, and a healthy fear of fire 🔥*
