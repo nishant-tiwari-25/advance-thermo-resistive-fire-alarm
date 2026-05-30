@@ -35,6 +35,22 @@ That's it. No firmware to flash, no libraries to install.
 
 ---
 
+## Circuit Diagram
+
+![Circuit Diagram](circuit_diagram.jpg)
+
+---
+
+## Development Process
+
+The circuit was first tested on a breadboard and later soldered onto a General Purpose PCB (Perfboard) for permanent implementation.
+
+| Breadboard Prototype | Final PCB |
+|---|---|
+| ![Breadboard](photos/breadboard.jpg) | ![PCB](photos/pcb.jpg) |
+
+---
+
 ## Components Used
 
 | Component | Quantity |
