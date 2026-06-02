@@ -1,15 +1,14 @@
 # Advance Thermo-Resistive Fire Detection and Alert System
 
-> A simple, no-microcontroller fire alarm built with pure analog electronics — because sometimes the old-school way just works.
+> a simple fire alarm, entirely done using analog electronics, without the use of any microcontroller – for once, the classic methods do work!
 
 ---
 
 ## What's This About?
 
-This is a mini-project we built during our 2nd semester of B.Tech Electrical Engineering at **SVNIT Surat**, as part of the **Electronic Devices & Circuits (EC108)** course. The idea was straightforward — build a fire detection system that can sense a rise in temperature and immediately scream (well, buzz) about it.
+The project was made during the 2nd semester of B.Tech Electrical Engineering in the course **“Electronic Devices & Circuits”** (EC108), while studying in **SVNIT Surat**. The basic concept was to build a device that detects the increase in temperature and screams (literally, buzzes) about it.
 
-No Arduino. No code. No microcontroller. Just good old transistors, a thermistor, and a bit of circuit intuition.
-
+No Arduino. No coding. Just pure old analog electronics!
 ---
 
 ## The Team
@@ -23,13 +22,13 @@ No Arduino. No code. No microcontroller. Just good old transistors, a thermistor
 
 ## How Does It Actually Work?
 
-At the heart of this circuit is an **NTC thermistor** — a resistor that doesn't like heat. As temperature goes up, its resistance drops. We used that simple property to trigger an alarm.
+In the middle of this system, an **NTC thermistor** acts as a major part – a component whose resistivity decreases when there's any rise in temperature. We used this basic behavior for alarming us.
 
-Here's the flow in plain English:
+Here's the sequence in understandable terms:
 
-1. Everything's calm → thermistor resistance is high → transistor stays OFF → no alarm.
-2. Fire (or heat) nearby → thermistor resistance drops → more current flows to the transistor's base → transistor switches ON → **buzzer sounds + LED lights up**.
-3. A potentiometer lets you fine-tune how sensitive the circuit is, so you can set the exact temperature point at which the alarm goes off.
+1. No fire → high resistance of thermistor → transistor remains off → no alarm generated.
+2. Fire or heat in vicinity → low resistance of thermistor → high current towards the base of transistor → transistor on → **buzzer activated + LED turns on**.
+3. A potentiometer controls sensitivity in the circuit and sets alarm threshold accordingly.
 
 That's it. No firmware to flash, no libraries to install.
 
@@ -68,25 +67,25 @@ The circuit was first tested on a breadboard and later soldered onto a General P
 
 ## What We Learned
 
-Honestly, this project taught us a lot more than we expected going in:
+Indeed, there is much that we learned that went beyond what we imagined when we started the project:
 
-- How NTC thermistors behave with changing temperature (and why they're so useful for sensing)
-- How a BC547 transistor can be used as a switch, not just an amplifier
-- The real-world skill of soldering components onto a PCB without frying them
-- How to troubleshoot a circuit when it doesn't work the first time (spoiler: it never works the first time)
-- What it feels like to actually *build* a safety system from scratch
+- About the performance characteristics of NTC sensors under varying temperatures (and their application in sensor design)
+- How to use a BC547 transistor as a switch instead of an amplifier
+- Practical skills in soldering circuit elements on to a board without killing them
+- About how to debug a circuit when it does not seem to work right off the bat
+- The experience of creating a safety system from scratch
 
 ---
 
 ## Where Can This Go From Here?
 
-We kept things simple for the course, but there's a lot of room to grow this into something more serious:
+We made it easy for our coursework purposes, however, there is great potential for making this project into a full-fledged one:
 
-- **Add an MQ-2 smoke sensor** — detect actual smoke, not just heat
-- **Bring in an Arduino** — for smarter control, thresholds, and logging
-- **Slap on an LCD/OLED display** — show the live temperature reading
-- **Go IoT** — send alerts to your phone when things heat up
-- **Battery monitor** — know when the system needs a recharge
+- **Attach a MQ-2 smoke sensor** – sense real smoke, not temperature only
+- **Throw in an Arduino microcontroller** – for intelligent handling, threshold setting, logging
+- **Put an LCD/OLED screen** – display the temperature on the go
+- **Make it IoT** – receive notifications to your mobile whenever the fire gets going
+- **Battery monitor** – detect when you need to recharge the board
 
 ---
 
